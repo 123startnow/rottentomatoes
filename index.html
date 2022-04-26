@@ -23,14 +23,31 @@
 <meta name="theme-color" content="#ffffff">
 <meta name="msvalidate.01" content="3AE764E8497357054CF7AE5A91FCAA67" />
 <meta name="a.validate.01" content="abc07ad085c94016815a0b7b07a19aceee84" />
-
-
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<link rel="amphtml" href="path/to/amp" >
+<link rel="canonical" href="/index.html">
+<link rel="amphtml" href="https://watchfreemovies.netlify.app/url/to/amp-version.html" />
 <!-- BEGIN SHAREAHOLIC CODE -->
 <link rel="preload" href="https://platform-api.sharethis.com/js" as="script" />
 <script type="text/javascript" data-cfasync="false" async src="https://platform-api.sharethis.com/js/sharethis.js#property=6225c640b9a7530012fa8003&product=sticky-share-buttons" async="async"></script>
 <!-- END SHAREAHOLIC CODE -->
 <script async type="b5aa4cb297a068daa4c2015c-text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5eb302e5cb28e900124f0928&product=sticky-share-buttons"></script>
-
+<style amp-custom>
+    h1 {
+      color: blue;
+    }
+  </style>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Watch free movies",
+      "image": [
+      "logo.png"
+    ],
+      "datePublished": "2022-02-05T08:00:00+08:00"
+    }
+  </script>
 <!--[if lt IE 9]>
 <script src="https://watchfreemovies.netlify.app/wp-content/themes/visual-plus/js/html5.js" type="text/javascript"></script>
 <![endif]-->
@@ -3522,5 +3539,12 @@ transform:scale(1.5);
         });
     </script>
 <script async src="//static.getclicky.com/101362987.js"></script>
+<style amp-keyframes>
+    @keyframes anim1 {}
+    
+    @media (min-width: 600px) {
+      @keyframes anim1 {}
+    }
+    </style>
 </body>
 </html>
