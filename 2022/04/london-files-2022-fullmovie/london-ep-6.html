@@ -132,7 +132,7 @@ body,button,input,select,textarea { font-family: Raleway, sans-serif; }
 <input type="text" class="field" name="s" value="" id="s" placeholder="Movie, Series or IMDb ID" />
 <input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" /></form>
 </div>
-<div style="text-align: center;"> <button class="btn btn-outline-info" type="button"><span style="font-family: play; font-size: medium; font-weight: bold;"> This Week New Release </span></button> 
+<div style="text-align: center;"> <button class="btn btn-outline-info" type="button"><span style="font-family: play; font-size: medium; font-weight: bold;"> This Week New Release - Click 2 Watch Now </span></button> 
 </br></br> 
 <style type="text/css">
 	.carousel {
@@ -140,60 +140,49 @@ body,button,input,select,textarea { font-family: Raleway, sans-serif; }
 		overflow: hidden;
 	   }
 		</style>
-<amp-carousel type="slides"
-width="450"
-height="300"
-layout="responsive"
-controls
-loop
- {% if not format='email'%}  autoplay
-delay="15000"{% endif %}
-data-next-button-aria-label="Go to next slide"
-data-previous-button-aria-label="Go to previous slide"
-role="region"
-aria-label="Looping carousel">
-<button on="tap:carousel-with-preview.goToSlide(index=0)">
 
-<amp-video width="16" height="9" src="https://watchfreemovies.netlify.app/wp-content/uploads/main/main1.mp4" type="video/mp4"  type="video/webm" layout="responsive" controls autoplay muted loop></amp-video>
-<a  href="https://watchfreemovies.netlify.app/wp-content/uploads/main/main1.html/"><span style="color: rgb(25, 5, 246); font-family: Play; font-size: 20px; font-weight: bold;">Click 2 Watch Now  <i aria-hidden="true" class="fa fa-play-circle">&nbsp;</i></span></a>
-</button>
-<button on="tap:carousel-with-preview.goToSlide(index=0)">
-<amp-video width="16" height="9" src="https://watchfreemovies.netlify.app/wp-content/uploads/main/main2.mp4" type="video/mp4"  type="video/webm" layout="responsive" controls autoplay muted loop></amp-video>
-<a  href="https://watchfreemovies.netlify.app/wp-content/uploads/main/main2.html/"><span style="color: rgb(25, 5, 246); font-family: Play; font-size: 20px; font-weight: bold;">Click 2 Watch Now  <i aria-hidden="true" class="fa fa-play-circle">&nbsp;</i></span></a>
-</button>
-<button on="tap:carousel-with-preview.goToSlide(index=0)">
-<amp-video width="16" height="9" src="https://watchfreemovies.netlify.app/wp-content/uploads/main/main3.mp4" type="video/mp4"  type="video/webm" layout="responsive" controls autoplay muted loop></amp-video>
-<a  href="https://watchfreemovies.netlify.app/wp-content/uploads/main/main3.html/"><span style="color: rgb(25, 5, 246); font-family: Play; font-size: 20px; font-weight: bold;">Click 2 Watch Now  <i aria-hidden="true" class="fa fa-play-circle">&nbsp;</i></span></a>
-</button>
-<button on="tap:carousel-with-preview.goToSlide(index=0)">
-<amp-video width="16" height="9" src="https://watchfreemovies.netlify.app/wp-content/uploads/main/main4.mp4" type="video/mp4"  type="video/webm" layout="responsive" controls autoplay muted loop></amp-video>
-<a  href="https://watchfreemovies.netlify.app/wp-content/uploads/main/main4.html/"><span style="color: rgb(25, 5, 246); font-family: Play; font-size: 20px; font-weight: bold;">Click 2 Watch Now  <i aria-hidden="true" class="fa fa-play-circle">&nbsp;</i></span></a>
-</button>
-<button on="tap:carousel-with-preview.goToSlide(index=0)">
-<amp-video width="16" height="9" src="https://watchfreemovies.netlify.app/wp-content/uploads/main/main5.mp4" type="video/mp4"  type="video/webm" layout="responsive" controls autoplay muted loop></amp-video>
-<a  href="https://watchfreemovies.netlify.app/wp-content/uploads/main/main5.html/"><span style="color: rgb(25, 5, 246); font-family: Play; font-size: 20px; font-weight: bold;">Click 2 Watch Now  <i aria-hidden="true" class="fa fa-play-circle">&nbsp;</i></span></a>
-</button>
-<button on="tap:carousel-with-preview.goToSlide(index=0)">
-<amp-video width="16" height="9" src="https://watchfreemovies.netlify.app/wp-content/uploads/main/main6.mp4" type="video/mp4"  type="video/webm" layout="responsive" controls autoplay muted loop></amp-video>
-<a  href="https://watchfreemovies.netlify.app/wp-content/uploads/main/main6.html/"><span style="color: rgb(25, 5, 246); font-family: Play; font-size: 20px; font-weight: bold;">Click 2 Watch Now  <i aria-hidden="true" class="fa fa-play-circle">&nbsp;</i></span></a>
-</button>
-<button on="tap:carousel-with-preview.goToSlide(index=0)">
-<amp-video width="16" height="9" src="https://watchfreemovies.netlify.app/wp-content/uploads/main/main7.mp4" type="video/mp4"  type="video/webm" layout="responsive" controls autoplay muted loop></amp-video>
-<a  href="https://watchfreemovies.netlify.app/wp-content/uploads/main/main7.html/"><span style="color: rgb(25, 5, 246); font-family: Play; font-size: 20px; font-weight: bold;">Click 2 Watch Now  <i aria-hidden="true" class="fa fa-play-circle">&nbsp;</i></span></a>
-</button>
-<button on="tap:carousel-with-preview.goToSlide(index=0)">
-<amp-video width="16" height="9" src="https://watchfreemovies.netlify.app/wp-content/uploads/main/main8.mp4" type="video/mp4"  type="video/webm" layout="responsive" controls autoplay muted loop></amp-video>
-<a  href="https://watchfreemovies.netlify.app/wp-content/uploads/main/main8.html/"><span style="color: rgb(25, 5, 246); font-family: Play; font-size: 20px; font-weight: bold;">Click 2 Watch Now  <i aria-hidden="true" class="fa fa-play-circle">&nbsp;</i></span></a>
-</button>
-<button on="tap:carousel-with-preview.goToSlide(index=0)">
-<amp-video width="16" height="9" src="https://watchfreemovies.netlify.app/wp-content/uploads/main/main9.mp4" type="video/mp4"  type="video/webm" layout="responsive" controls autoplay muted loop></amp-video>
-<a  href="https://watchfreemovies.netlify.app/wp-content/uploads/main/main9.html/"><span style="color: rgb(25, 5, 246); font-family: Play; font-size: 20px; font-weight: bold;">Click 2 Watch Now  <i aria-hidden="true" class="fa fa-play-circle">&nbsp;</i></span></a>
-</button>
-<button on="tap:carousel-with-preview.goToSlide(index=0)">
-<amp-video width="16" height="9" src="https://watchfreemovies.netlify.app/wp-content/uploads/main/main10.mp4" type="video/mp4"  type="video/webm" layout="responsive" controls autoplay muted loop></amp-video>
-<a  href="https://watchfreemovies.netlify.app/wp-content/uploads/main/main10.html/"><span style="color: rgb(25, 5, 246); font-family: Play; font-size: 20px; font-weight: bold;">Click 2 Watch Now  <i aria-hidden="true" class="fa fa-play-circle">&nbsp;</i></span></a>
-</button>
-</amp-carousel>
+<style>p.menusomething a img {
+	margin: 0 10px 0 0;
+	}</style>
+<!-- HTML Codes by HTMLCodes.ws -->
+<style type="text/css">
+	.html-marquee1 { background-color:#292929;font-family:play;font-size:12pt;color:#292929;border-width:0;}
+	</style>
+<marquee class="html-marquee1" direction="left" onmouseout="this.start()" onmouseover="this.stop()" behavior="scroll" scrollamount="8" > 
+  
+	<button class="btn-outline-light" ><a href="https://watchfreemovies.netlify.app/wp-content/uploads/main/main1.html" > <video controls autoplay muted loop >
+		<source src="https://watchfreemovies.netlify.app/wp-content/uploads/main/main1.mp4" type="video/mp4" frameborder="0" class="embed-responsive embed-responsive-16by9" allowfullscreen allow="autoplay; encrypted-media; picture-in-picture" title=" Official Trailer"></button></a> 
+	
+
+	<button class="btn-outline-light" ><a href="https://watchfreemovies.netlify.app/wp-content/uploads/main/main2.html" >  <div class="sub-div"><video controls autoplay muted loop >
+		<source src="https://watchfreemovies.netlify.app/wp-content/uploads/main/main2.mp4" type="video/mp4" frameborder="0" class="embed-responsive embed-responsive-16by9" allowfullscreen allow="autoplay; encrypted-media; picture-in-picture" title=" Official Trailer"> </button> </a>
+
+	<button class="btn-outline-light" ><a href="https://watchfreemovies.netlify.app/wp-content/uploads/main/main3.html" > <div class="sub-div"><video controls autoplay muted loop >
+		<source src="https://watchfreemovies.netlify.app/wp-content/uploads/main/main3.mp4" type="video/mp4" frameborder="0" class="embed-responsive embed-responsive-16by9" allowfullscreen allow="autoplay; encrypted-media; picture-in-picture" title=" Official Trailer"> </button> </a>
+
+	<button class="btn-outline-light" ><a href="https://watchfreemovies.netlify.app/wp-content/uploads/main/main4.html" > <div class="sub-div"><video controls autoplay muted loop >
+		<source src="https://watchfreemovies.netlify.app/wp-content/uploads/main/main4.mp4" type="video/mp4" frameborder="0" class="embed-responsive embed-responsive-16by9" allowfullscreen allow="autoplay; encrypted-media; picture-in-picture" title=" Official Trailer"></button> 	
+
+	<button class="btn-outline-light" ><a href="https://watchfreemovies.netlify.app/wp-content/uploads/main/main5.html" > <div class="sub-div"><video controls autoplay muted loop >
+		<source src="https://watchfreemovies.netlify.app/wp-content/uploads/main/main5.mp4" type="video/mp4" frameborder="0" class="embed-responsive embed-responsive-16by9" allowfullscreen allow="autoplay; encrypted-media; picture-in-picture" title=" Official Trailer"></button> 	
+				
+	<button class="btn-outline-light" ><a href="https://watchfreemovies.netlify.app/wp-content/uploads/main/main6.htm6" > <div class="sub-div"><video controls autoplay muted loop >
+		<source src="https://watchfreemovies.netlify.app/wp-content/uploads/main/main6.mp4" type="video/mp4" frameborder="0" class="embed-responsive embed-responsive-16by9" allowfullscreen allow="autoplay; encrypted-media; picture-in-picture" title=" Official Trailer"></button>
+
+	<button class="btn-outline-light" ><a href="https://watchfreemovies.netlify.app/wp-content/uploads/main/main7.html" > <div class="sub-div"><video controls autoplay muted loop >
+		<source src="https://watchfreemovies.netlify.app/wp-content/uploads/main/main7.mp4" type="video/mp4" frameborder="0" class="embed-responsive embed-responsive-16by9" allowfullscreen allow="autoplay; encrypted-media; picture-in-picture" title=" Official Trailer"> </button>
+
+	<button class="btn-outline-light" ><a href="https://watchfreemovies.netlify.app/wp-content/uploads/main/main8.html" > <div class="sub-div"><video controls autoplay muted loop >
+		<source src="https://watchfreemovies.netlify.app/wp-content/uploads/main/main8.mp4" type="video/mp4" frameborder="0" class="embed-responsive embed-responsive-16by9" allowfullscreen allow="autoplay; encrypted-media; picture-in-picture" title=" Official Trailer"> </button>
+
+	<button class="btn-outline-light" ><a href="https://watchfreemovies.netlify.app/wp-content/uploads/main/main9.html" > <div class="sub-div"><video controls autoplay muted loop >
+		<source src="https://watchfreemovies.netlify.app/wp-content/uploads/main/main9.mp4" type="video/mp4" frameborder="0" class="embed-responsive embed-responsive-16by9" allowfullscreen allow="autoplay; encrypted-media; picture-in-picture" title=" Official Trailer">  </button>
+	
+	<button class="btn-outline-light" ><a href="https://watchfreemovies.netlify.app/wp-content/uploads/main/main10.html" > <div class="sub-div"><video controls autoplay muted loop >
+		<source src="https://watchfreemovies.netlify.app/wp-content/uploads/main/main10.mp4" type="video/mp4" frameborder="0" class="embed-responsive embed-responsive-16by9" allowfullscreen allow="autoplay; encrypted-media; picture-in-picture" title=" Official Trailer"> </button> 
+	
+	 	
+</marquee>
 	 <!--<style>
 		.video {
 		position:relative;
